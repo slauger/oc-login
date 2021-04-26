@@ -43,7 +43,7 @@ export OPENSHIFT_USERNAME=slauger
 export OPENSHIFT_PASSWORD=secretpassword
 export OPENSHIFT_IDP=name-of-idp
 
--bash$ oc login https://api.${OPENSHIFT_CLUSTER}:6443 --token $(./oc_login_keycloak.py)
+-bash$ oc login https://api.${OPENSHIFT_CLUSTER}:6443/ --token $(./oc_login_keycloak_multi.py)
 Logged into "https://api.clusterid.clusterdomain.com:6443" as "slauger" using the token provided.
 ```
 
